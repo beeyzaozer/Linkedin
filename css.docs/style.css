@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body, .text-input, .input{
+    background-color: rgba(4, 11, 31, 0.925);
+}
+.body .container-fluid{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+.message{
+    background-color: rgb(44, 57, 73);
+    width: 220px;
+    height: 41px;
+    margin-right: 8%;
+}
+.no-btn-style{
+    outline: none;
+    border-style: none;
+    box-shadow: none;
+}
+.no-bg-color{
+    background-color: rgba(44, 57, 73, 0.753)
+}
+.font-xs{
+    font-size: 11px;
+}
+.font{
+    font-size: 12px;
+}
+.font-size{
+    font-size: 14px;
+}
+.general-arrow-back{
+    width: 18px;
+    height: 18px;
+    background-color: rgba(66, 79, 95, 0.753);
+}
+.general-arrow{
+    font-size: 12px;
+    margin-left: -12px;
+    margin-top: 2px;
+}
+.general-arrow-down-back{
+    width: 18px;
+    height: 18px;
+    background-color: rgba(66, 79, 95, 0.753);
+}
+.general-arrow-down{
+    font-size: 12px;
+    margin-left: -14px;
+    margin-top: 4px;
+}
+#textarea-input,.button{
+    background-color: rgba(4, 11, 31, 0.500);
+}
+
+.bgd-color, .navbar-links, .comment, .button-image{
+    background-color: rgba(44, 57, 73, 0.753);
+}
+.navbar .form-control{
+    background-color: rgba(44, 57, 73, 0.753);
+    width: 85%;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.form-control:focus{
+    transition:5000s ease-in-out 0s;
+    box-shadow: none;   
+}
+.navbar-links{
+    width: 26px;
+    height: 26px;
+    margin-bottom: 7px;
+}
+.navbar-links-profile{
+    border-left: 1px solid #818291;
+}
+.navbar-search{
+    margin-left: -30px;
+}
+.boxProfile, .textarea{
+    height: 267px;
+}
+.bookmark{
+    height: 60px;
+  
+}
+.bookmark-button-back{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(66, 79, 95, 0.753);
+}
+.bookmark-button{
+    font-size: 12px;
+    margin-left: -13px;
+}
+
+.background{
+    height: 32%;
+}
+.profile{
+    height: 40%;
+    /* margin-left: 44%; */
+}
+.profile-cover{
+    margin-top: -60px;
+}
+.image{
+    border-radius:50%;
+} 
+.buttons-back{
+    background-color: rgba(66, 79, 95, 0.753);
+    
+    
+}
+.post-buttons{
+    width: 67px;
+}
+.arrow{
+    font-weight: 100px;
+}
+.arrow-blue{
+    background-color: rgb(46, 136, 240);
+    width: 22px;
+    height: 22px;
+}
+.comment-arrow-blue{
+    background-color:rgb(46, 136, 240);
+    width: 16px;
+    height: 16px;
+    color: none;
+    z-index: 1;
+}
+.button{
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: none;
+  
+}
+.button:focus{
+    outline: none;
+    box-shadow: none;
+  }
+#textarea-input{
+    height: 90%;
+    resize: none;
+}
+#textarea-input:focus, .comment:focus{
+    outline: none;
+    box-shadow: none;
+}
+.arrow{
+    background-color:rgba(56, 73, 94, 0.753);
+}
+.follow{
+    background-color: rgb(46, 136, 240);
+    border-radius: 8px;
+}
+.icons{
+    height: 40px;
+    color: rgba(177, 189, 202, 0.753);
+    font-size: 17px;
+}
+.fa-ellipsis-v{
+    color: rgba(177, 189, 202, 0.753);
+    font-size: 20px;
+}
+.comment{
+    max-height: 30px;
+    resize: none; 
+}
+.button-image{
+    color: none;
+    margin-left: -50px;
+    margin-right: 6px;
+    z-index: 1;
+}
+.content-button{
+    border-style: none;
+    box-shadow: none;
+    background: none;
+}
+.hashtags{
+    background-color: rgba(66, 79, 95, 0.753);
+}
+@media (max-width : 1250px){
+    .text{
+        display: none;
+    }
+    
+}
